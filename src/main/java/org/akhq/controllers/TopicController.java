@@ -18,6 +18,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import lombok.*;
 import org.akhq.configs.Role;
 import org.akhq.models.*;
+import org.akhq.models.Record;
 import org.akhq.modules.AbstractKafkaWrapper;
 import org.akhq.repositories.*;
 import org.akhq.utils.Pagination;
@@ -509,4 +510,4 @@ public class TopicController extends AbstractController {
         private long offset;
     }
 }
- 
+
